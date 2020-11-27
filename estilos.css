@@ -1,0 +1,48 @@
+.formulario .container-campo {
+    position: relative;
+}
+
+.formulario .container-campo i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+.formulario .container-campo .form-control {
+    border: 1px solid black;
+}
+
+.formulario .container-campo .form-control:focus {
+    color: initial;
+    background-color: initial;
+    border-color: initial;
+    outline: initial;
+    box-shadow: initial;
+}
+
+.formulario .container-campo textarea {
+    border: 1px solid red;
+}
+
+.formulario .container-campo .fa-check-square.active {
+    color: aqua;
+    display: block;
+}
+
+.formulario .container-campo .fa-times-circle.active {
+    color: brown;
+    display: block;
+}
+
+.alert {
+    display: none;
+}
+
+.alert-success.active {
+    display: block;
+}
+
+.alert-danger.active {
+    display: block;
+}
